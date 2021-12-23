@@ -3,7 +3,7 @@
 датасет widerface_train_bin.tfrecord в папке ../input/widerface/
 <h2>retinaface_res50.yaml</h2> - базовый файл конфигурации для детектора лиц
 
-<h2>retina_unit.py</h2> - все классы и функци детектора для импорта во внешние модули
+<h2>retina_unit.py</h2> - все классы и функци детектора для импорта во внешние модули<br>
 чекпоинт обученного детектора можно взять тут:
 https://drive.google.com/file/d/11p4Hs0JsELR9L0G42nbKzCd5LL3iiBiq/view?usp=sharing
 
