@@ -1,18 +1,18 @@
 # general setting
-batch_size: 8
+batch_size: 12
 input_size: 640
-backbone_type: 'ResNet50'  # 'ResNet50', 'MobileNetV2'
+backbone_type: 'MobileNetV2'  # 'ResNet50', 'MobileNetV2'
 sub_name: 'retinaface_res50'
 
 # training dataset
-dataset_path: './data/widerface_train_bin.tfrecord'
+dataset_path: '../input/widerface/widerface_train_bin.tfrecord'
 dataset_len: 12880  # number of training samples
 using_bin: True
 using_flip: True
 using_distort: True
 
 # testing dataset
-testing_dataset_path: './data/widerface/val'
+testing_dataset_path: '../input/widerface/val'
 
 # network
 out_channel: 256
@@ -26,7 +26,7 @@ variances: [0.1, 0.2]
 clip: False
 
 # training setting
-epoch: 100
+epoch: 60
 init_lr: !!float 1e-2
 lr_decay_epoch: [50, 68]
 lr_rate: 0.1
