@@ -10,7 +10,6 @@ https://drive.google.com/file/d/11p4Hs0JsELR9L0G42nbKzCd5LL3iiBiq/view?usp=shari
 <h2>arcface.ipynb</h2> - обучение классификатора c ArcFace на VGG Face
 <h2>creat dataset.ipynb</h2> - ноутбук с подготовкой датасетов
 <h2>demo.ipynb</h2> - демонстрация работы моделек, с вебкамерой на Google Collab
-<h2>presentation.ipynb</h2> - презентация диплома
 <h2>photo-v-man.ipynb</h2>  - обучение модели отличающей фото от человека<br>
 обученную модель можно взять тут:
 https://drive.google.com/file/d/1FIULVcedThLU2jKpm_jfxOO4CAcN-6eX/view?usp=sharing
